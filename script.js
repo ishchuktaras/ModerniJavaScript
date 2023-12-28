@@ -3,4 +3,6 @@
 let firstName = "Taras";
 let secondName = "Ishchuk";
 let city = "Jihlava";
-console.log(firstName + " " + secondName + ', ' + city);
+let job = "vývojář webových stránek";
+
+console.log('Ahoj, jmenuji se ' + firstName + " " + secondName + " a pracuji jako " + job);
