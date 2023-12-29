@@ -10,6 +10,7 @@ let job = "vývojář webových stránek";
 let age = 40;
 let feature = 5;
 let featureAge = age + feature;
+
 console.log(
   "Ahoj, jmenuji se " +
     firstName +
@@ -23,4 +24,20 @@ console.log(
     " let."
 );
 
-console.log("Za " + feature + " let mi bude " + featureAge + '.');
+console.log("Za " + feature + " let mi bude " + featureAge + ".");
+
+// ovládáme string, numbers a matematické operace
+
+let student1 = 65;
+let student2 = 77;
+
+let student1Name = "Vavzhyniak";
+let student2Name = "Ishchuk";
+
+let maxPoints = 150;
+
+let success1 = (student1 / maxPoints) * 100;
+let success2 = (student2 / maxPoints) * 100;
+
+console.log(student1Name + " dosáhl(a) " + success1 + "% uspěšnosti");
+console.log(student2Name + " dosáhl(a) " + success2 + "% uspěšnosti");
