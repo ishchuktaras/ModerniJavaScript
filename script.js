@@ -2,42 +2,50 @@
 
 // String
 let firstName = "Taras";
-let secondName = "Ishchuk";
-let city = "Jihlava";
-let job = "vývojář webových stránek";
+secondName = "Ishchuk";
+city = "Jihlava";
+lob = "vývojář webových stránek";
 
 // Number
-let age = 40;
-let feature = 5;
-let featureAge = age + feature;
+age = 15;
+feature = 5;
+featureAge = age + feature;
 
-console.log(
-  "Ahoj, jmenuji se " +
-    firstName +
-    " " +
-    secondName +
-    " a pracuji jako " +
-    job +
-    ". " +
-    "Je mi " +
-    age +
-    " let."
-);
+student1 = 65;
+student2 = 77;
 
-console.log("Za " + feature + " let mi bude " + featureAge + ".");
+student1Name = "Vavzhyniak";
+student2Name = "Ishchuk";
+
+maxPoints = 150;
+
+success1 = (student1 / maxPoints) * 100;
+success2 = (student2 / maxPoints) * 100;
+
+child = age <= 18;
+adult = age >= 18 <= 65;
+pensioner = age >= 65;
+
+// console.log(
+//   "Ahoj, jmenuji se " +
+//     firstName +
+//     " " +
+//     secondName +
+//     " a pracuji jako " +
+//     job +
+//     ". " +
+//     "Je mi " +
+//     age +
+//     " let."
+// );
+
+// console.log("Za " + feature + " let mi bude " + featureAge + ".");
 
 // ovládáme string, numbers a matematické operace
 
-let student1 = 65;
-let student2 = 77;
+// console.log(student1Name + " dosáhl(a) " + success1 + "% uspěšnosti");
+// console.log(student2Name + " dosáhl(a) " + success2 + "% uspěšnosti");
 
-let student1Name = "Vavzhyniak";
-let student2Name = "Ishchuk";
-
-let maxPoints = 150;
-
-let success1 = (student1 / maxPoints) * 100;
-let success2 = (student2 / maxPoints) * 100;
-
-console.log(student1Name + " dosáhl(a) " + success1 + "% uspěšnosti");
-console.log(student2Name + " dosáhl(a) " + success2 + "% uspěšnosti");
+console.log('Dítě: ' + child);
+console.log('Dospělý: ' + adult);
+console.log('Dúchodce: ' + pensioner);
