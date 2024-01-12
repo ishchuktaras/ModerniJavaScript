@@ -19,29 +19,44 @@ let firstName = "Taras",
   child = age < 18,
   adult = age >= 18,
   pensioner = age >= 65;
+pozice = "Administrator";
 
-  // console.log(
-  //   "Ahoj, jmenuji se " +
-  //     firstName +
-  //     " " +
-  //     secondName +
-  //     " a pracuji jako " +
-  //     job +
-  //     ". " +
-  //     "Je mi " +
-  //     age +
-  //     " let."
-  // );
+// console.log(
+//   "Ahoj, jmenuji se " +
+//     firstName +
+//     " " +
+//     secondName +
+//     " a pracuji jako " +
+//     job +
+//     ". " +
+//     "Je mi " +
+//     age +
+//     " let."
+// );
 
-  // console.log("Za " + feature + " let mi bude " + featureAge + ".");
+// console.log("Za " + feature + " let mi bude " + featureAge + ".");
 
-  // String, numbers a matematické operace
+//****** String, numbers a matematické operace
 
-  // console.log(student1Name + " dosáhl(a) " + success1 + "% uspěšnosti");
-  // console.log(student2Name + " dosáhl(a) " + success2 + "% uspěšnosti");
+// console.log(student1Name + " dosáhl(a) " + success1 + "% uspěšnosti");
+// console.log(student2Name + " dosáhl(a) " + success2 + "% uspěšnosti");
 
-  // Boolean
+//***** Boolean
 
-console.log("Dítě: " + child);
-console.log("Dospělý: " + adult);
-console.log("Dúchodce: " + pensioner);
+// console.log("Dítě: " + child);
+// console.log("Dospělý: " + adult);
+// console.log("Dúchodce: " + pensioner);
+
+//***** Podmínka if a else, else if
+
+// if ((pozice === "Programator")) {
+//   console.log("Rozdíl mezi HTML, CSS a JavaScriptem?");
+// } else if ((pozice === "Administrator")) {
+//   console.log("Druhy sítí?");
+// } else if ((pozice ==='Sekretářka')) {
+//   console.log('Funkce z excelu?')
+// }
+
+// Logické operátory a zároveň (&&), nebo (||)
+
+
